@@ -10,6 +10,7 @@ function App() {
   const user = null;
   return (
     <div className="app">
+        <div>Testing</div>
         <Routes>
           <Route path="/" 
           element={!user ? (<LoginScreen />) : (<HomeScreen />)} />
